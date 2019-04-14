@@ -1,0 +1,26 @@
+.body__1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.delivery {
+    display: flex;
+    position: absolute;
+    top	: 0px;
+    width: 1920px;
+    justify-content: center;
+        }
+
+.delivery .text4 p {
+    position: relative;
+    font-weight: normal;
+    font-size: 23.8px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    width: 310px;
+    justify-content: center;
+    margin: 0 !important;
+}
+
