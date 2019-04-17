@@ -1,0 +1,43 @@
+table {
+    position: relative;
+    width: 711px !important;
+    border-collapse: collapse;
+    margin: auto;
+    color: #e7e5e5;
+    font-weight: lighter !important;
+    text-align: center;
+    border-spacing: 2px;
+    font-family: "Lucida Sans Unicode" !important;
+    background: rgba(36, 35, 35, 0.17);
+    
+}
+  
+  td {
+    padding: 5px;
+    padding-right: 10px;
+    border: 3px solid #555555;
+    font-weight: lighter !important;
+  }
+  
+  th {
+    padding: 3px;
+    border: 3px solid #555555;
+    font-weight: lighter !important;
+  }
+  
+  th:first-child,
+  th:last-child {
+    border-left: none; 
+    border-right: none;
+  }
+  
+  .caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-left: none;
+    border-right: none;
+  }
+  .row2 {
+    font-size: 12px;
+  }
+
