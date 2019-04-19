@@ -1,0 +1,21 @@
+.conten__footer {
+    background-image: url('img/fon2.jpg');
+    background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.conten__footer .conten__footer_caption {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+   display: flex;
+   justify-content: center;
+     }
+.conten__footer .foto__of-production {
+    display: block;
+    width: 484px;
+    height: 361px;
+    margin-left: auto;
+    margin-right: auto;
+}

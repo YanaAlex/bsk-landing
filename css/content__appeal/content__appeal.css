@@ -1,0 +1,64 @@
+.content__VP {
+    background-color: #fff;
+
+}
+
+.content__appeal {
+    position: relative;
+    height: 863px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.content__appeal .content__appeal__title {
+    font-size: 36.2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1136px;
+}
+.content__appeal .content__appeal__title span {
+    color: #0075f8;
+    width: 1021px;
+    
+}
+
+.content__appeal .content__appeal_comment{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__appeal__photo {
+margin-right: 32px;
+height: 498px;
+width: 421px;
+padding-right: 55px;
+}
+.content__appeal .content__appeal__comment {
+    font-size: 25px;
+    margin: 0;
+    height: 498px;
+   
+}
+
+
+.content__appeal .content__appeal__comment .content__appeal__photo {
+    margin-right: 36px;
+}
+
+
+
+
+
+
+

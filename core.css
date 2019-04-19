@@ -3,6 +3,7 @@
     max-width: 100%;
     max-width: 1920px;
     background: #555555;
+    background-attachment: fixed;
 }
 
 .wrap {
