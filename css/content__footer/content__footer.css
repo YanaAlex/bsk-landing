@@ -11,11 +11,50 @@
     color: #fff;
    display: flex;
    justify-content: center;
+   text-transform: uppercase;
+   margin: 44px 0;
      }
 .conten__footer .foto__of-production {
-    display: block;
+    display: flex;
     width: 484px;
-    height: 361px;
+    height: 484px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.conten__footer .conten__footer__partners {
+        background: rgba(253, 248, 248, 0.5);
+        margin-top: 44px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 374px;
+}
+ 
+.conten__footer .conten__footer__partners .conten__footer__img {
+    width: 265px;
+    height: 112px;
+}
+.conten__footer .conten__footer__partners .content__footer__conteiner_img {
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.conten__footer .conten__footer__partners .conten__partners_caption {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   text-transform: uppercase;
+}
+
+.certificates .certificates__img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+
