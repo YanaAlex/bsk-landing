@@ -1,16 +1,22 @@
+
 .footer__contact__form {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
     border: 3px solid rgba(49, 48 ,46, 30%);
-    width: 434px;
-    height: 570px;
+    padding: 15px;
     background: none;
     box-sizing: border-box;
-    padding: 25px;
-    position: relative;
-    z-index: 1;
+    justify-content: center;
+    position: absolute;
+    z-index: 2000;
     border-radius: 10px;
-    margin-left: auto;
+    vertical-align: middle;
+    object-fit: cover;
+    top: 70px;
+    left: 160px;
     }
+
 .footer__contact__form::before {
         content: "";
         background: #ffffff;
@@ -22,49 +28,48 @@
         position: absolute;
         z-index: 0;
     }
+
     .footer__contact__form .pageFormHeader p {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 0;
         margin-bottom: 13px;
         }
   
-        .footer__contact__form .pageFormContant {
-        position: relative;
-        }
-        .footer__contact__form .pageFormContant .pageformlabel {
+        
+        .footer__contact__form .pageformlabel {
             display: inline-block;
-            width: 372px;
+            
             margin-bottom: 13px;
             border-radius: 10px;
         }
-        .footer__contact__form .pageFormContant .pageformlabel:last-child {
+        .footer__contact__form .pageformlabel:last-child {
             margin-bottom: 0;
         }
 
-        .footer__contact__form .pageFormContant .pageformlabel .pageformtitle {
+        .footer__contact__formb.pageformlabel .pageformtitle {
             display: block;
             font-size: 14px;
             position: relative;
             bottom: -15px;
                    }
-        .footer__contact__form .pageFormContant .pageformlabel input[type='text'] {
-            height: 73px;
-            width: 372px;
+        .footer__contact__form .pageformlabel input[type='text'] {
+            height: 50px;
+            width: 299px;
             border: 2px solid #649ad6;
             box-sizing: border-box;
             padding: 0 10px;
             line-height: 73px;
             border-radius: 10px;
         }
-        .footer__contact__form .pageFormContant .pageformlabel .PageFormButton {
+        .footer__contact__form .PageFormButton {
             background: #649ad6;
-            height: 73px;
-            width: 372px;
-            font-size: 30px;
+            height: 50px;
+            width: 299px;
+            font-size: 25px;
             color: #ffffff;
             border: 2px solid rgba(49, 48 ,46, 30%);
             cursor: pointer;
             text-align: center;
-            margin-top: 45px;
+            margin-top:;
             border-radius: 10px;
-        }
+                    }

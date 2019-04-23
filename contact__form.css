@@ -68,4 +68,22 @@
             text-align: center;
             margin-top: 45px;
             border-radius: 10px;
+            -khtml-opacity:.50; 
+            -moz-opacity:.50; 
+            -ms-filter:"alpha(opacity=50)";
+             filter:alpha(opacity=50);
+             filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+             opacity: 0.9;
         }
+        @keyframes glowing { 
+            0% { background-color: #649ad6; box-shadow: 0 0 2px #074673; } 
+            50% { background-color: #649ad6; box-shadow: 0 0 9px #0e87de; } 
+            100% { background-color: #649ad6; box-shadow: 0 0 2px #094d7d; } 
+          } 
+          
+          .PageFormButton { 
+            animation: glowing 1500ms infinite; 
+          }
+       
+            
+           
