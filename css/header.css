@@ -1,0 +1,45 @@
+.header {
+    background: url('../img/bg-header.jpg') center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.header__wrap {
+    width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.header__gradient {
+    content: "";
+    position: absolute;
+    background: linear-gradient(transparent 99px,rgba(178, 169, 180, 30%));
+    z-index: 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__tell {
+    font-size: 36px;
+    color: #333333;
+    text-align: right;
+}
+
+.contacts__mail {
+    color: #666666;
+ }
+
+
+.header__center {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+

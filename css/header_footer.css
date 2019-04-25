@@ -9,7 +9,7 @@ width: 100%;
      .Arrow__To__Down { 
         position: relative; 
         width: 24px; 
-        height: 24px; 
+        height: 97px; 
         } 
          
         .chevron { 
@@ -37,6 +37,7 @@ width: 100%;
         height: 100%; 
         width: 51%; 
         background: #333333; 
+        opacity: 0.67;
         } 
          
         .chevron:before { 
@@ -48,7 +49,7 @@ width: 100%;
         right: 0; 
         width: 50%; 
         transform: skew(0deg, -30deg); 
-        } 
+              } 
          
         @keyframes move { 
         25% { 

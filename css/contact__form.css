@@ -76,9 +76,9 @@
              opacity: 0.9;
         }
         @keyframes glowing { 
-            0% { background-color: #649ad6; box-shadow: 0 0 2px #074673; } 
-            50% { background-color: #649ad6; box-shadow: 0 0 9px #0e87de; } 
-            100% { background-color: #649ad6; box-shadow: 0 0 2px #094d7d; } 
+            0% { background-color: #649ad6; box-shadow: 0 0 2px #f6ff00; } 
+            50% { background-color: #649ad6; box-shadow: 0 0 9px #f6ff00; } 
+            100% { background-color: #649ad6; box-shadow: 0 0 2px #f6ff00; } 
           } 
           
           .PageFormButton { 

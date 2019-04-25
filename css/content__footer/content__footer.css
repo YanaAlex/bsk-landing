@@ -54,8 +54,12 @@
 
 .certificates .certificates__img {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 61px;
+}
+
+.certificates .certificates__img1 {
+margin-right: 15px;
 }
 
 
