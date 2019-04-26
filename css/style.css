@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
 @import url('container.css');
 @import url('header.css');
-@import url('contact__form.css');
+@import url('contact-form.css');
 @import url('contacts-header.css');
-@import url('text__content.css');
 @import url('header_footer.css');
-@import url('body__1.css');
+@import url('site-main.css');
 @import url('tables.css');
 @import url('content__appeal/content__appeal.css');
 @import url('content__footer/content__footer.css');

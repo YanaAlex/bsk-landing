@@ -1,0 +1,48 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgba(49, 48 ,46, 30%);
+    padding: 15px;
+    background: rgba(255, 255, 255, 20%);
+    box-sizing: border-box;
+    justify-content: space-around;
+    border-radius: 10px;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 357px;
+    }
+
+
+ .contact-form__page-form {
+    font-size: 21px;
+    text-transform: uppercase;
+    }
+  
+        
+ .contact-form__label {
+    display: inline-block;
+    border-radius: 10px;
+    }
+
+    .contact-form .contact-form__label input[type='text'] {
+    height: 50px;
+    width: 299px;
+    border: 2px solid #649ad6;
+    box-sizing: border-box;
+    line-height: 73px;
+    border-radius: 10px;
+    padding-left: 5px;
+    }
+
+ .contact-form__button {
+    background: #649ad6;
+    height: 50px;
+    width: 299px;
+    font-size: 19px;
+    color: #ffffff;
+    border: 2px solid rgba(49, 48 ,46, 30%);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    }
