@@ -1,14 +1,14 @@
 .site-main {
     position: relative;
-    background: url('../img/bg-header.jpg') center no-repeat;
-    background-attachment: fixed;
+   
+  
 }
 
 .site-main__wrap {
     width: 1170px;
     margin: 0 auto;
     background: rgba(253, 248, 248, 50%);
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .features {
@@ -86,6 +86,12 @@ margin: 0 !important;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.products__img {
+-webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
+box-shadow: 0px 10px 7px rgba(0,0,0,0.4), 0px 20px 10px rgba(0,0,0,0.2);
 }
 
 .products__description {
