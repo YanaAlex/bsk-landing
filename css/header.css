@@ -1,6 +1,6 @@
 .header {
     position: relative;
-  
+  line-height: 1;
  
 }
 
@@ -44,6 +44,7 @@
     align-items: center;
     flex-wrap: wrap;
     z-index: 2;
+    line-height: 1.5;
 } 
 
 .text-content__text-1 {
