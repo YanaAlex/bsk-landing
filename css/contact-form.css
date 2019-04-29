@@ -1,7 +1,7 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    border: 3px solid rgba(49, 48 ,46, 30%);
+    border: 2px solid rgba(49, 48 ,46, 30%);
     padding: 15px;
     background: rgba(255, 255, 255, 20%);
     box-sizing: border-box;
@@ -28,7 +28,7 @@
     .contact-form .contact-form__label input[type='text'] {
     height: 50px;
     width: 299px;
-    border: 2px solid #649ad6;
+    border: 1px solid #649ad6;
     box-sizing: border-box;
     line-height: 73px;
     border-radius: 10px;
@@ -39,12 +39,11 @@
     background: #649ad6;
     height: 50px;
     width: 299px;
-    font-size: 17px;
+    font-size: 20px;
     color: #ffffff;
-    border: 2px solid rgba(49, 48 ,46, 30%);
+    border: 1px solid rgba(49, 48 ,46, 30%);
     cursor: pointer;
     text-align: center;
     border-radius: 10px;
     text-transform: uppercase;
-    letter-spacing: .1em;
-    }
+     }
