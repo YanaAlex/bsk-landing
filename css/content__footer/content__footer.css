@@ -4,6 +4,13 @@
 
 }
 
+.conten__footer__wrap {
+    width: 1170px;
+    margin: 0 auto;
+    background: rgba(253, 248, 248, 50%);
+    padding: 20px 50px;
+}
+
 .conten__footer .conten__footer_caption {
     font-size: 48px;
     font-weight: bold;

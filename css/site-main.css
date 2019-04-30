@@ -7,7 +7,7 @@
 .site-main__wrap {
     width: 1170px;
     margin: 0 auto;
-    background: rgba(253, 248, 248, 50%);
+    background: rgba(253, 248, 248, 80%);
     padding: 20px 50px;
 }
 
@@ -110,7 +110,8 @@ margin: 0 !important;
    line-height: 2;
    color: #333;
    width: 360px;
-   background: rgba(255, 255, 255, 45%);
+   /* background: rgba(255, 255, 255, 45%); */
+   background: rgba(51, 51, 51, 0.20);
  
 }
 
@@ -154,5 +155,5 @@ margin: 0 !important;
     justify-content: center;
     line-height: 2;
     width: 360px;
-    background: rgba(255, 255, 255, 65%);
+    background: rgba(51, 51, 51, 0.20);
 }

@@ -1,6 +1,5 @@
 .content__VP {
-    background-color: #fff;
-
+    width: 1170px;
 }
 
 .content__appeal {
@@ -12,6 +11,14 @@
     align-items: center;
    
 
+}
+
+.content__VP__wrap {
+    width: 1170px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 50px;
+    position: relative;
 }
 
 .content__appeal .content__appeal__title {
@@ -44,11 +51,11 @@ height: 498px;
 width: 421px;
 padding-right: 55px;
 }
+
 .content__appeal .content__appeal__comment {
     font-size: 25px;
     margin: 0;
     height: 498px;
-   
 }
 
 
