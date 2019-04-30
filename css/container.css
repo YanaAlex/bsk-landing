@@ -38,6 +38,9 @@ body {
 }
 
 .horizontal_dotted_line{
-    border-bottom: 1px solid #333;
-    width: 1170px;
+    border-bottom: 4px solid #333;
+    width: 30px;
+    position: absolute;
+    color: #333;
+    top: 255px;
   } 

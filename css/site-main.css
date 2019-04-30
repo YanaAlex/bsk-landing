@@ -84,12 +84,10 @@ margin: 0 !important;
 }
 
 .products-1 {
-    /* background: rgba(255, 255, 255, 45%);  */
     display: flex;
     justify-content: center;
     width: 800px;
     margin: 0 auto;
-    /* border: 1px solid #333; */
     -webkit-border-radius: 10px;
 
 }
@@ -101,7 +99,7 @@ margin: 0 !important;
 
 
 .products__img {
-    margin: 0 0 0 0;
+    margin: 0;
     letter-spacing: .1em;
   }
 
@@ -109,7 +107,7 @@ margin: 0 !important;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   line-height: 1.5;
+   line-height: 2;
    color: #333;
    width: 360px;
    background: rgba(255, 255, 255, 45%);
@@ -154,7 +152,7 @@ margin: 0 !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 1.5;
+    line-height: 2;
     width: 360px;
-    background: rgba(255, 255, 255, 45%);
+    background: rgba(255, 255, 255, 65%);
 }
