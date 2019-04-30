@@ -11,6 +11,12 @@ table {
     
 }
 
+.table__style-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
   .caption__top {
     border-left: none;
     color: #396ec6;

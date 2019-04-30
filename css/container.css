@@ -8,9 +8,6 @@
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover; 
-   
-    
-    
 }
 
 .wrap {
@@ -23,7 +20,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     margin: 0;
-    }
+}
 
 .title {
     text-align: center;
@@ -37,10 +34,3 @@ body {
     font-weight: 500;
 }
 
-.horizontal_dotted_line{
-    border-bottom: 4px solid #333;
-    width: 30px;
-    position: absolute;
-    color: #333;
-    top: 255px;
-  } 
