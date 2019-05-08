@@ -16,7 +16,7 @@
 .content__VP__wrap {
     width: 1170px;
     margin: 0 auto;
-    background: #fff;
+    background: rgba(253, 248, 248, 100);
     padding: 20px 50px;
     position: relative;
 }

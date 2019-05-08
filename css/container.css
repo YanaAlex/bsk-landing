@@ -29,8 +29,9 @@ body {
     color: #333;
     text-transform: uppercase;
     position: relative;
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
+    box-sizing: border-box;
+    padding: 40px;
     font-weight: 500;
+    clear: left;
 }
 

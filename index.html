@@ -9,6 +9,9 @@
     <link href="css/owl.theme.default.min.css" rel="stylesheet">
     <link href="css/owl.theme.green.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> 
+    <script src="./main.js/"></script>
 </head>
 
 <body>
@@ -33,19 +36,19 @@
                         <p class="text-content__text-2">• ПНД разных цветов</p>
                         </div>
                     </div>
-                    <form class="form contact-form" action="/">
+                    <form class="form contact-form" action="/" method="POST">
                         <div class="contact-form__page-form">
-                                Получите оптовые цены<br>
-                                     на весь ассортимент<br>
-                                      прямо сейчас
+                                Заполните заявку ниже <br>
+                                и наш менеджер<br>
+                                 свяжется с вами!
                             </div>
                             <label class="label contact-form__label">
-                                <input type="text" name="Введите телефон" placeholder="Введите телефон" required><br>
+                                <input maxlength="30" type="text" class="telephone" name="Введите телефон" placeholder="Введите телефон" required><br>
                             </label>
                             <label class="label contact-form__label">
-                                <input type="text" name="" placeholder="Введите E-mail" required>
+                                <input type="text" class="email" name="" placeholder="Введите E-mail" required>
                             </label>
-                                <button type="submit" class="button contact-form__button">Получить оптовые цены</button>                            
+                                <button type="submit" class="submit button contact-form__button">Оставить заявку</button>
                         </form>
                 </div>
                 <div class="header_footer">
@@ -113,9 +116,10 @@
             </div>
             <div class="products-1">
                     <div class="products__description--2">
-                        <span class="products__description-title">Проволока</span>
+                        <span class="products__description-title">Проволока гвоздильная/вязальная</span>
                         <ul class="products__list">
-                            <ol class="products__list-2"><span class="products__list-1--bold">Постоянно в наличии большой ассортимент гвоздильной, вязальной </span></ol>
+                            <ol class="products__list-2"><span class="products__list-1--bold">Постоянно в наличии,<br>
+                                 большой ассортимент</span></ol>
                             <ol class="products__list-2"><span class="products__list-1--bold">Диаметр проволоки, мм:</span> от 0,8 до 6,0.</ol>
                         </ul>
                     </div>
@@ -137,7 +141,7 @@
             <div class="table1">
                 <div class="table__style-button">
                     <button class="custom-owl-prev-button1 owl-prev" ;><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 192 192" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#333333"><g id="surface1"><path d="M140.13462,169.84615l22.32692,-14.88462l-40.75961,-58.96154l40.75961,-58.96154l-22.32692,-14.88462l-51.66346,73.84615zM80.94231,169.84615l22.58653,-14.88462l-40.75961,-58.96154l40.75961,-58.96154l-22.58653,-14.88462l-51.40385,73.84615z"></path></g></g></g></svg></button>
-                    <div class="slider slider1 owl-carousel owl-theme wrap">
+                    <div class="slider slider1 owl-carousel owl-theme">
                         <table>
                             <tr class="caption">
                                 <th class="caption__top"; colspan="4">Сетка рабица черная</th>
@@ -769,61 +773,92 @@
         </div>
     </div>
 </div>
-<div class="conten__footer__wrap">
+<div class="conten__footer-wrap">
         <div class="conten__footer">
                 <h1 class="title">Наше производство</h1> 
-                    <img class="foto__of-production" src="img/экскурсия по производству/DJEyg_dDmKc.jpg" alt="производство кладочной сетки">
+                <div class="slider-2">
+                <input type="radio" name="slide_switch" id="id1"/>
+                <label for="id1">
+                    <img src="img/производство__слайдер-1.jpg" width="100" height="100"/>
+                </label>
+                <img src="img/производство__слайдер-1.jpg"/>
+                
+                <input type="radio" name="slide_switch" id="id2" checked="checked"/>
+                <label for="id2">
+                    <img src="img/производство__слайдер-3.jpg" width="100" height="100"/>
+                </label>
+                <img src="img/производство__слайдер-3.jpg"/>
+                
+                <input type="radio" name="slide_switch" id="id3"/>
+                <label for="id3">
+                    <img src="img/производство__слайдер-2.jpg" width="100" height="100"/>
+                </label>
+                <img src="img/производство__слайдер-2.jpg"/>
+                
+                <input type="radio" name="slide_switch" id="id4"/>
+                <label for="id4">
+                    <img src="img/производство__слайдер-4.jpg" width="100" height="100"/>
+                </label>
+                <img src="img/производство__слайдер-4.jpg"/>
+                
+                <input type="radio" name="slide_switch" id="id5"/>
+                <label for="id5">
+                    <img src="img/производство__слайдер-5.jpg" width="100" height="100"/>
+                </label>
+                <img src="img/производство__слайдер-5.jpg"/>
                 </div>
-              <div class="conten__footer__partners">
-                    <h1 class="title">Наши официальные партнеры</h1>
-                    <div class="wrap">
-                      <div class="content__footer__conteiner_img">
+            </div>
+            <h1 class="title">Наши официальные партнеры</h1>
+        </div>
+              <div class="conten__footer-partners">
                     <img class="conten__footer__img" src="img/Евраз.jpg" alt="Логотип Евраз">
                     <img class="conten__footer__img" src="img/НЛМК.jpg" alt="Логотип НЛМК">
                     <img class="conten__footer__img" src="img/Северсталь.jpg" alt="Логотип Северсталь">
                 </div>
-                </div>
-              </div>
-              <div class="certificates wrap">
+                <div class="conten__footer-wrap">
+              <div class="certificates">
                     <h1 class="title">Сертификаты соответствия</h1> 
                     <div class="certificates__img">
                     <img class="certificates__img1" src="img/сертификат1.jpg">
                     <img class="certificates__img1"src="img/сертификат2.jpg">
                 </div>
                  </div>
-                 <div class="yandex__map__contact__form">
+                </div>
+                <div class="conten__yandex-wrap">
                      <div class="yandex__map">
-                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7e39b5ff23301ad74851244f6767c53856c88b20ef057641ac0e0057cf610165&amp;width=100%25&amp;height=509&amp;lang=ru_RU&amp;scroll=true"></script>
-                </div>                 
-                        <form class="footer__contact__form" action="/">
-                        <div class="pageFormHeader">
-                                <p>Получите оптовые цены<br>
-                                     на весь ассортимент<br>
-                                      прямо сейчас</p>
+                           <div class="footer-contact-us wrapper">
+                                    <p class="footer-title">Свяжитесь с нами</p>
+                                    <a href="tel: +7 (383) 238 09 44" class="footer-phone" itemprop="telephone">+7 (383) 238 09 44</a>
+                                    <button class="button button--bulk-green show-btn"  href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='block';document.getElementById('fade').style.display='block'">Заказать звонок</button>
+                                    <div id="envelope" class="envelope">
+                                            <button class="button button--bulk-green close-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='none';document.getElementById('fade').style.display='none'">Закрыть</button>
+                                    <form class="form contact-form" action="mail/sendletter.php" method="post">
+                                        <div class="contact-form__page-form">
+                                                Заполните заявку ниже <br>
+                                                и наш менеджер<br>
+                                                 свяжется с вами!
+                                            </div>
+                                            <label class="label contact-form__label">
+                                                <input maxlength="30" type="text" class="phone" name="phone" placeholder="Введите телефон" required><br>
+                                            </label>
+                                            <label class="label contact-form__label">
+                                                <input type="text" class="email" name="email" placeholder="Введите E-mail" required>
+                                            </label>
+                                                <button type="submit" name="send" class="submit button contact-form__button">Оставить заявку</button>
+                                        </form>
+                                        <div id="fade" class="black-overlay"></div>
+                                    <address class="footer-address"><span itemprop="addressLocality">г. Бердск, </span><span itemprop="streetAddress">Линейная, 5к1</span></address>
+                                    <p class="footer-mail" itemprop="email">bska@mail.ru</p>
+                                    <div class="copyright">
+                        <p>© 2019 год. Все права защищены.<br>
+                             Предложение не является публичной офертой, все цены уточняйте у менеджеров. </p>
+                    </div>
                             </div>
-                            <!-- <form action="/"> -->
-                            <label class="pageformlabel">
-                                <span class="pageformtitle">Введите телефон</span> <br>
-                                <input type="text" name="" required><br>
-                            </label>
-                            <label class="pageformlabel">
-                                <span class="pageformtitle">Введите E-mail</span><br>
-                                <input type="text" name="" required>
-                            </label>
-                                <button type="submit" class="PageFormButton">Получить оптовые цены</button>                            
-                        </form>
-                </div>
-                <div class="contacts__footer">
-                    <p>Адрес:<br>
-                       г. Бердск ул. Линейная 5л</p>
-                       <p> Телефон:<br>
-                       +7-(383)-238-09-44</p>
-                       <p>Email:<br>
-                            2380948@gmail.com</p>
-                </div>
-                </div>
-                </div>
-                 </div>
+                           
+                            <script class="yandex__map-card" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A687de9e211b564b05d0b9e9015b6dd7cbd258b1fa2e9d037a2ce796673bdc7ed&amp;width=635&amp;height=391&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div> 
+        </div>
+        </div>
     </div>
     </div>
     </div>

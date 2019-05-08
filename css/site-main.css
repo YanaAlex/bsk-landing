@@ -111,7 +111,7 @@ margin: 0 !important;
    color: #333;
    width: 360px;
    background: rgba(255, 255, 255, 45%);
- 
+   text-emphasis: justify;
 }
 
 .products__description-title {
@@ -155,4 +155,5 @@ margin: 0 !important;
     line-height: 2;
     width: 360px;
     background: rgba(255, 255, 255, 45%);
+    text-emphasis: justify;
 }
