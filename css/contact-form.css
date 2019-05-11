@@ -63,3 +63,13 @@
         filter: alpha(opacity=70);
         z-index: 0;
     }
+
+    .envelope {
+        display: none;
+        position: absolute;
+        width: 600px;
+        height: 340px;
+
+        z-index:1002;
+        position: relative;
+        margin: 10% auto;
