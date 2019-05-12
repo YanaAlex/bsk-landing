@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     border: 2px solid rgba(49, 48 ,46, 30%);
-    padding: 15px;
+    padding: 10px;
     background: rgba(255, 255, 255, 50%);
     box-sizing: border-box;
     justify-content: space-around;
@@ -10,14 +10,16 @@
     vertical-align: middle;
     object-fit: cover;
     height: 357px;
-    color: #749ad9;
+    color: #333;
+    position: relative;
     }
 
 
  .contact-form__page-form {
-    font-size: 21px;
+    font-size: 22px;
     text-transform: uppercase;
     line-height: 1.5;
+    text-align: left;
         }
   
         

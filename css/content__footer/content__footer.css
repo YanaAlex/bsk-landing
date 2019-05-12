@@ -130,15 +130,8 @@ margin-right: 15px;
         padding-left: 25px;
     }
 
-    .footer-mail::before {
-        content: '\f0e0';
-        left: -5px;
-    }
 
-    .footer-address::before {
-        content: '\f041';
-        left: -5px;
-    }
+
 
 
  
@@ -175,6 +168,6 @@ margin-right: 15px;
     }
 
 
-    yandex__map-card {
+    .yandex__map-card {
         width: 50%;
     }
