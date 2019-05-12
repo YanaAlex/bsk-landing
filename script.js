@@ -27,3 +27,13 @@ $('.custom-owl-next-button1').click(function() {
 $('.custom-owl-prev-button1').click(function() {
     owl1.trigger('prev.owl.carousel');
 })
+
+
+// feedback form 
+function showFeedbackForm() { 
+    document.getElementById('feedback-form').style.display = 'block'; 
+    } 
+    
+    function hideFeedbackForm() { 
+    document.getElementById('feedback-form').style.display = 'none'; 
+    }

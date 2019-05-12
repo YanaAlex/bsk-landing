@@ -829,24 +829,31 @@
                            <div class="footer-contact-us wrapper">
                                     <p class="footer-title">Свяжитесь с нами</p>
                                     <a href="tel: +7 (383) 238 09 44" class="footer-phone" itemprop="telephone">+7 (383) 238 09 44</a>
-                                    <a class="button button--bulk-green show-btn"  href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='block';document.getElementById('fade').style.display='block'">Заказать звонок</a>
-                                    <div id="envelope" class="envelope">
-                                            <a class="button button--bulk-green close-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='none';document.getElementById('fade').style.display='none'">Закрыть</a>
-                                    <form class="form contact-form" action="mail/sendletter.php" method="post">
-                                        <div class="contact-form__page-form">
-                                                Заполните заявку ниже <br>
-                                                и наш менеджер<br>
-                                                 свяжется с вами!
+                                    <button class="button button--bulk-green show-btn">Заказать звонок</button>
+
+                                    <div id="feedback-form" class='feedback-form'> 
+                                            <div class="fade"> 
+                                            <div class="envelope"> 
+                                            <button class="close-btn" onclick="hideFeedbackForm()">Закрыть</a> 
+                                            <h1 class="title">Отправить нам сообщение</h1> 
+                                            <form method="post" action="путь до обработчика"> 
+                                            <input type="text" name="sender" onclick="this.value='';" onfocus="this.select()" 
+                                            onblur="this.value=!this.value?'* Ваше Имя':this.value;" value="* Ваше Имя" 
+                                            class="your-name" /> 
+                                            <input type="text" name="email" onclick="this.value='';" onfocus="this.select()" 
+                                            onblur="this.value=!this.value?'* Ваш Email':this.value;" value="* Ваш Email" 
+                                            class="email-address" /> 
+                                            <textarea class="your-message">Пожалуйста, введите своё сообщение здесь ..</textarea> 
+                                            <input type="submit" name="send" value="Отправить" class="send-message"> 
+                                            </form> 
+                                            </div> 
+                                            </div> 
                                             </div>
-                                            <label class="label contact-form__label">
-                                                <input maxlength="30" type="text" class="phone" name="phone" placeholder="Введите телефон" required><br>
-                                            </label>
-                                            <label class="label contact-form__label">
-                                                <input type="text" class="email" name="email" placeholder="Введите E-mail" required>
-                                            </label>
-                                                <button type="submit" name="send" class="submit button contact-form__button">Оставить заявку</button>
-                                        </form>
-                                        <div id="fade" class="black-overlay"></div>
+
+
+
+
+
                                     <address class="footer-address"><span itemprop="addressLocality">г. Бердск, </span><span itemprop="streetAddress">Линейная, 5к1</span></address>
                                     <p class="footer-mail" itemprop="email">bska@mail.ru</p>
                                     <div class="copyright">
