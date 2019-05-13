@@ -5,9 +5,14 @@
 
 .header__wrap {
     width: 1170px;
+    height: 920px;
     margin: 0 auto;
     background: rgba(253, 248, 248, 80%);
     padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header-top {
@@ -41,6 +46,7 @@
     flex-wrap: wrap;
     z-index: 2;
     line-height: 1.5;
+    list-style-position: inside;
 }
 
 .text-content__text-1 {

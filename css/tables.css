@@ -4,6 +4,8 @@
     text-decoration: none;
     text-align: center;
     display: block;
+    box-sizing: border-box;
+    padding-bottom: 50px;
 }
 
 table {

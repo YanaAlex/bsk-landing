@@ -6,8 +6,8 @@
 @import url('header_footer.css');
 @import url('site-main.css');
 @import url('tables.css');
-@import url('content__appeal/content__appeal.css');
-@import url('content__footer/content__footer.css');
-@import url('footer__contact__form/footer__contact__form.css');
+@import url('content__appeal.css');
+@import url('content__footer.css');
+@import url('footer__contact__form.css');
 @import url('slider-of-our-production.css');
 @import url('feedback-form.css');

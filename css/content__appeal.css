@@ -10,17 +10,20 @@
     align-items: center;
 }
 
+.content__appeal__title-bottom {
+    color: #649ad6;
+}
+
 .content__appeal__quote {
     display: block;
     margin: 0 auto;
-    width: 984.44px;
+    width: 1082.89px;
 }
 
 .content__appeal__title {
     display: block;
-    font-size: 40px;
+    font-size: 44px;
     margin: 0 auto;
-   
 }
 
 .content__appeal__photo {
