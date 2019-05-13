@@ -1,61 +1,54 @@
-.content__VP {
-    width: 1170px;
-}
-
 .content__appeal {
     position: relative;
     height: 863px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.content__VP__wrap {
     width: 1170px;
     margin: 0 auto;
     background: rgba(253, 248, 248, 100);
     padding: 20px 50px;
-    position: relative;
-}
-
-.content__appeal .content__appeal__title {
-    font-size: 36.2px;
-    text-transform: uppercase;
-    font-weight: normal;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    width: 1136px;
-}
-
-.content__appeal .content__appeal__title span {
-    color: #0075f8;
-    width: 1021px;
-}
-
-.content__appeal .content__appeal_comment {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 
+.content__appeal__quote {
+    display: block;
+    margin: 0 auto;
+    width: 984.44px;
+}
+
+.content__appeal__title {
+    display: block;
+    font-size: 40px;
+    margin: 0 auto;
+   
+}
+
 .content__appeal__photo {
-    margin-right: 32px;
-    height: 498px;
-    width: 421px;
-    padding-right: 55px;
+    height: 495px;
+    width: 40%;
+    float: left;
 }
 
-.content__appeal .content__appeal__comment {
+.content__appeal__comment {
     font-size: 25px;
-    margin: 0;
-    height: 498px;
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 40px;
 }
 
-.content__appeal .content__appeal__comment .content__appeal__photo {
-    margin-right: 36px;
+.content__appeal__quotes-bottom {
+    margin-left: 334px;
+}
+
+.content__appeal__initials {
+    font-size: 33px;
+    font-weight: bold;
+    color: #414040;
+}
+
+.content__appeal__position {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666666;
 }

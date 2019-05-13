@@ -1,12 +1,9 @@
 .price-list {
     color: #333;
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: none;
-}
-
-.fa-print:hover:after {
-    content: 'скачать прайс-лист';
-    font-size: 20px;
+    text-align: center;
+    display: block;
 }
 
 table {

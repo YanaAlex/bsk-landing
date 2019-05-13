@@ -28,7 +28,7 @@
 
 .header-center {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 450px;
     align-items: center;
 }
