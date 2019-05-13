@@ -12,6 +12,7 @@
    border: 0;
    cursor: pointer;
    margin-right: 30px;
+   font-size: 25px;
   }
   .owl-next{
     background-color: transparent !important;
@@ -19,6 +20,7 @@
     border: 0;
     cursor: pointer;
     margin-left: 30px;
+    font-size: 25px;
          }
 
 
