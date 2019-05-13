@@ -1,49 +1,56 @@
-* {margin: 0; padding: 0;}
-body {background: #ccc;}
-
-.slider-2{
-width: 720px; 
-position: relative;
-padding-top: 600px; 
-margin: 0 auto 100px auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.slider-2>img{
-position: absolute;
-left: 0; top: 0;
-transition: all 0.5s;
-width: 720px;
-height: 600px; 
+body {
+    background: #ccc;
+}
+
+.slider-2 {
+    width: 720px;
+    position: relative;
+    padding-top: 600px;
+    margin: 0 auto 100px auto;
+}
+
+.slider-2>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+    width: 720px;
+    height: 600px;
 }
 
 .slider-2 input[name='slide_switch'] {
-display: none;
+    display: none;
 }
 
 .slider-2 label {
-	margin: 19px;
-	border: 2px solid #999;	
-	float: left;
-	cursor: pointer;
-	transition: all 0.5s;
-	opacity: 0.6;
+    margin: 19px;
+    border: 2px solid #999;
+    float: left;
+    cursor: pointer;
+    transition: all 0.5s;
+    opacity: 0.6;
 }
 
-.slider-2 label img{
-display: block;
+.slider-2 label img {
+    display: block;
 }
 
 .slider-2 input[name='slide_switch']:checked+label {
-	border-color: #396ec6;
-	opacity: 1;
+    border-color: #396ec6;
+    opacity: 1;
 }
 
-.slider-2 input[name='slide_switch'] ~ img {
-	opacity: 0;
-	transform: scale(1.1);
+.slider-2 input[name='slide_switch']~img {
+    opacity: 0;
+    transform: scale(1.1);
 }
 
 .slider-2 input[name='slide_switch']:checked+label+img {
-	opacity: 1;
-	transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
 }

@@ -1,7 +1,6 @@
 .header {
     position: relative;
-  line-height: 1;
- 
+    line-height: 1;
 }
 
 .header__wrap {
@@ -11,12 +10,11 @@
     padding: 20px 50px;
 }
 
-
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
+}
 
 .contacts__tell {
     font-size: 36px;
@@ -26,8 +24,7 @@
 
 .contacts__mail {
     color: #666666;
- }
-
+}
 
 .header-center {
     display: flex;
@@ -35,7 +32,6 @@
     height: 450px;
     align-items: center;
 }
-
 
 .text-content {
     display: flex;
@@ -45,7 +41,7 @@
     flex-wrap: wrap;
     z-index: 2;
     line-height: 1.5;
-} 
+}
 
 .text-content__text-1 {
     position: relative;
@@ -54,9 +50,9 @@
     color: #333;
     z-index: 1;
     margin: 5px 0 !important;
-    }
+}
 
-    .text-content__text-2 {
+.text-content__text-2 {
     position: relative;
     font-weight: normal;
     font-size: 40px;
@@ -64,6 +60,3 @@
     z-index: 1;
     margin: 0 0;
 }
-
-
-

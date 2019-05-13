@@ -9,8 +9,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   
-
 }
 
 .content__VP__wrap {
@@ -31,13 +29,13 @@
     margin: 0 auto;
     width: 1136px;
 }
+
 .content__appeal .content__appeal__title span {
     color: #0075f8;
     width: 1021px;
-    
 }
 
-.content__appeal .content__appeal_comment{
+.content__appeal .content__appeal_comment {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -46,10 +44,10 @@
 }
 
 .content__appeal__photo {
-margin-right: 32px;
-height: 498px;
-width: 421px;
-padding-right: 55px;
+    margin-right: 32px;
+    height: 498px;
+    width: 421px;
+    padding-right: 55px;
 }
 
 .content__appeal .content__appeal__comment {
@@ -58,14 +56,6 @@ padding-right: 55px;
     height: 498px;
 }
 
-
 .content__appeal .content__appeal__comment .content__appeal__photo {
     margin-right: 36px;
 }
-
-
-
-
-
-
-

@@ -1,13 +1,12 @@
-
 .container {
-    background: url('../img/bg-header.jpg')  no-repeat;
+    background: url('../img/bg-header.jpg') no-repeat;
     background-attachment: fixed;
-    max-width: 100%; 
-    height: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
+    max-width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .wrap {
@@ -34,4 +33,3 @@ body {
     font-weight: 500;
     clear: left;
 }
-

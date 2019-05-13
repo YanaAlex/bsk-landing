@@ -1,7 +1,5 @@
 .conten__footer {
-  
     background-position: 50% 0;
-
 }
 
 .conten__footer-wrap {
@@ -12,47 +10,46 @@
 }
 
 .conten__footer-partners {
-        background: rgba(253, 248, 248, 0.9);
-        width: 1170px;
-        height: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        clear: left;
-        margin: 0 auto;
-        padding: 0 50px;
+    background: rgba(253, 248, 248, 0.9);
+    width: 1170px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    clear: left;
+    margin: 0 auto;
+    padding: 0 50px;
 }
 
- .certificates__img {
+.certificates__img {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
     padding-bottom: 40px;
 }
 
- .certificates__img1 {
-margin-right: 15px;
+.certificates__img1 {
+    margin-right: 15px;
 }
 
 .conten__yandex-wrap {
     width: 1270px;
     margin: 0 auto;
-    background: rgba(13,13,13,.5);
+    background: rgba(13, 13, 13, .5);
 }
-
 
 .yandex__map {
     position: relative;
     display: flex;
     flex-flow: row;
     z-index: 15;
-    }
+}
 
 .footer-contact-us {
     width: 50%;
     text-align: center;
-     background-size: cover;
+    background-size: cover;
     overflow: hidden;
     position: relative;
 }
@@ -64,9 +61,6 @@ margin-right: 15px;
     font-size: 32px;
     text-transform: uppercase;
 }
-
-
-
 
 .footer-phone {
     font-size: 50px;
@@ -85,89 +79,73 @@ margin-right: 15px;
     padding-right: 5px;
 }
 
-
-.button--bulk-green,
-.button--bulk-green-rectangle {
-        border: 1px solid #649ad6;
-        background: #649ad6;
-        border-radius: 10px;
-        outline: 0;
-        font-size: 16px;
-        padding: 15px 35px;
-        text-transform: uppercase;
-        position: relative;
-        overflow: hidden;
-        font-size: 20px;
+.button--bulk-green, .button--bulk-green-rectangle {
+    border: 1px solid #649ad6;
+    background: #649ad6;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 16px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
     color: #fff;
     animation: radial-pulse 1s infinite;
+}
+
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
     }
-
-    @keyframes radial-pulse {
-        0% {
-          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
-        }
-       
-        100% {
-          box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
-        }
+    100% {
+        box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
     }
+}
 
+.footer-address {
+    padding-top: 25px;
+}
 
+.footer-address, .footer-mail {
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    width: 376px;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    padding-left: 25px;
+}
 
+.footer-address::before, .footer-mail::before {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    padding-right: 5px;
+}
 
-    .footer-address {
-        padding-top: 25px;
-    }
+.confidetial-policy, .copyright p {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #b2b4b4;
+    opacity: .7;
+}
 
-    .footer-address, .footer-mail {
-        font-style: normal;
-        font-size: 20px;
-        color: #fff;
-        width: 376px;
-        text-align: left;
-        margin: auto;
-        position: relative;
-        padding-left: 25px;
-    }
+.form__field {
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid #649ad6;
+    border-radius: 5px;
+    color: #b2b4b4;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+}
 
-
-
-
-
- 
-    .footer-address::before, .footer-mail::before {
-        position: absolute;
-        font-size: 22px;
-        color: #fff;
-        padding-right: 5px;
-    }
-
-
-
-    .confidetial-policy, .copyright p {
-        margin: 10px;
-        font-size: 20px;
-        font-weight: 600;
-        color: #b2b4b4;
-        opacity: .7;
-    }
-
-
-
-    .form__field {
-        font-size: 20px;
-        display: block;
-        margin: 20px auto;
-        padding: 10px;
-        width: 40%;
-        border: 2px solid #649ad6;
-        border-radius: 5px;
-        color: #b2b4b4;
-        background-color: transparent;
-        transition: all .3s ease-in-out;
-    }
-
-
-    .yandex__map-card {
-        width: 50%;
-    }
+.yandex__map-card {
+    width: 50%;
+}
