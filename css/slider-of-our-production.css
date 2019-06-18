@@ -1,10 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    background: #ccc;
+    max-height: 999999999px
 }
 
 .slider-2 {
