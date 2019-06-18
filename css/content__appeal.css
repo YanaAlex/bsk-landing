@@ -3,7 +3,9 @@
     height: 863px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1170px;
     width: 1170px;
+    height: 100%;
     margin: 0 auto;
     background: rgba(253, 248, 248, 100);
     padding: 20px 50px;
